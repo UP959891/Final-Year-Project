@@ -1,0 +1,8 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hi", "Hello", "hows it going", "greetings", "good morning", "good afternoon", "good evening", "good day", "how are you"],
+    "responses": ["Hello, I am a chatbot designed to provide advice for your broadband connection.", "Hi! I am a chatbot designed to provide advice for your broadband connection."]},
+    {"tag": "Range Issues",
+    "patterns": ["Range", "reach", "distance", "bedroom", "room", "garden", "Wifi range", "Poor range", "close", "far"],
+    "responses": ["It seems you are suffering from range issues, is that right?"]}
+]}
