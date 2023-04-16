@@ -19,7 +19,7 @@ lemmatizer = WordNetLemmatizer()
 
 
 
-intents = json.loads(open('CustomerService_Chatbot/intents.json').read())
+intents = json.loads(open('intents.json').read())
 
 
 
@@ -59,9 +59,9 @@ classes = sorted(set(classes))
 
 
 
-pickle.dump(words, open('CustomerService_Chatbot/words.pkl', 'wb'))
+pickle.dump(words, open('words.pkl', 'wb'))
 
-pickle.dump(classes, open('CustomerService_Chatbot/classes.pkl', 'wb'))
+pickle.dump(classes, open('classes.pkl', 'wb'))
 
 
 
@@ -127,7 +127,7 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 
 model.fit(trainX, trainY, epochs=200, batch_size=5, verbose=1)
 
-model.save('CustomerService_Chatbot/chatbot_model.h5')
+model.save('chatbot_model.h5')
 
 print('Done')
 
