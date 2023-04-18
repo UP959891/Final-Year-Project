@@ -4,5 +4,8 @@
     "responses": ["Hello, I am a chatbot designed to provide advice for your broadband connection.", "Hi! I am a chatbot designed to provide advice for your broadband connection."]},
     {"tag": "Range Issues",
     "patterns": ["Range", "reach", "distance", "bedroom", "room", "garden", "Wifi range", "Poor range", "close", "far"],
-    "responses": ["It seems you are suffering from range issues, is that right?"]}
+    "responses": ["It seems you are suffering from range issues, is that right?"]},
+    {"tag": "No service",
+    "patterns": ["No internet", "No Service", "Red light on box", "red light on fibre box", "no lights", "lights are off", "Can't access", "Internet is off", "Service is down"],
+    "responses": ["It seems you are suffering from a loss of service, is that correct?"]}
 ]}
