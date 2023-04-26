@@ -7,5 +7,11 @@
     "responses": ["It seems you are suffering from range issues, is that right?"]},
     {"tag": "No service",
     "patterns": ["No internet", "No Service", "Red light on box", "red light on fibre box", "no lights", "lights are off", "Can't access", "Internet is off", "Service is down"],
-    "responses": ["It seems you are suffering from a loss of service, is that correct?"]}
+    "responses": ["It seems you are suffering from a loss of service, is that correct?"]},
+    {"tag": "Affirmative",
+    "patterns": ["yes", "yeah","yep", "yup", "positive", "affirmative", "perfect", "thats right", "correct", "thats correct"],
+    "responses": ["I see", "Thank You", "I understand", "Understood"]},
+    {"tag": "Negative",
+    "patterns": ["No", "Nope", "Negative", "non", "Incorrect", "Wrong"],
+    "responses": ["Let's see what i can do here", "I see", "I understand", "Thank you for confirming"]}
 ]}
