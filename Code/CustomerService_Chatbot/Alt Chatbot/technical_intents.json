@@ -1,0 +1,19 @@
+{"technical_intents": [
+    {"tag": "no_service",
+     "patterns": ["Hi have no internet", "internet is not working", "internet is down", "no service", "cant access the internet", "cant use the internet"],
+     "responses": ["From what i understand you have no service right now, is that correct?"]
+    },
+    {"tag": "range_issues",
+     "patterns": ["The internet wont reach my room", "cant get internet in room", "low speeds in room", "wifi wont reach", "wifi coverage"],
+     "responses": ["From what I understand you are suffering from range issues is that right?"]
+    },
+    {"tag": "outage",
+    "patterns": ["is there an outage", "is the internet down", "is the network down", "is anyone else's internet affected"],
+    "responses": ["If you are enquiring about an outage please provide me with your address, name and telephone number and someone from our team will be in touch shortly."]
+    },
+    {"tag": "static_ip",
+    "patterns": ["Port forwarding", "routing", "Ip address", "IPV6", "IPV4", "Subnetting", "dynamic ip address", "static ip address"],
+    "responses": ["It seems your problem may be related to using dynamic IP addresses *Corporate mumbo jumbo* buy the static ip add-on"]
+    }
+]
+}
