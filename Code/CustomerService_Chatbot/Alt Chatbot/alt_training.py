@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 import os
 
 # Define paths to intents files
-intents_paths = ['intents1.json', 'intents2.json']
+intents_paths = ['basic_intents.json', 'technical_intents.json']
 
 for i, intents_path in enumerate(intents_paths):
     # Load data from intents file
